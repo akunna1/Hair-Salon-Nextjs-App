@@ -8,7 +8,7 @@
 - src/app/(salon) --> layout.tsx, template.tsx
 - src/app/(salon)/tickets --> page.tsx
 - src/app/(salon)/customers --> page.tsx
-- src/app/(salon)/home --> page.
+- src/app/(salon)/home --> page.tsx
 - src/components --> Header.tsx
 - src/components/ui --> button.tsx (created by shadcn)
 - src/lib --> utlis.js (created by shadcn)
