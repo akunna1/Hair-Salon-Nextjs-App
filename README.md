@@ -1,2 +1,2 @@
-# Nextjs-App
+# Hair Salon Nextjs-App
 Practice App
