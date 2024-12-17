@@ -1,4 +1,7 @@
 ## African Hair Braiding Salon Nextjs-App
+### Definitions
+- ShadCN: a UI component library for building accessible, customizable, and reusable components in React applications, designed to improve development efficiency and user experience.
+
 ### Features
 - Replace current note book system
 - Add a public facing page with basic contact info
