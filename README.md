@@ -4,7 +4,7 @@
 
 ### Project Layout (directories)
 - Public/images
-- src/app --> global.css, favicon.ico, layout.tsx, page.tsx (first page?)
+- src/app --> global.css, favicon.ico, layout.tsx (root layout), page.tsx (first page?)
 - src/app/(salon) --> layout.tsx, template.tsx
 - src/app/(salon)/tickets --> page.tsx
 - src/app/(salon)/customers --> page.tsx
