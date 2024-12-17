@@ -1,4 +1,4 @@
-## Hair Salon Nextjs-App
+## African Hair Braiding Salon Nextjs-App
 ### Features
 - Replace current note book system
 - Add a public facing page with basic contact info
