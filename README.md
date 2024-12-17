@@ -1,6 +1,14 @@
-## African Hair Braiding Salon Nextjs-App
+## Bantu African Hair Braiding Salon Nextjs-App
 ### Definitions
 - ShadCN: a UI component library for building accessible, customizable, and reusable components in React applications, designed to improve development efficiency and user experience. Almost like BootStrap
+
+### Project Layout (directories)
+- Public/images
+- src/app --> global.css, favicon.ico, layout.tsx, page.tsx (first page?)
+- src/app/(salon) --> layout.tsx, template.tsx
+- src/app/(salon)/tickets --> page.tsx
+- src/app/(salon)/customers --> page.tsx
+- src/app/(salon)/home --> page.tsx
 
 ### Features
 - Replace current note book system
