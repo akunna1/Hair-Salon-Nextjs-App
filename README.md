@@ -13,7 +13,9 @@
 - src/components/ui --> button.tsx (created by shadcn)
 - src/lib --> utlis.js (created by shadcn)
 
-### Features
+
+
+### Features of App
 - Replace current note book system
 - Add a public facing page with basic contact info
  - Add a passwordless employee login to the app
@@ -34,3 +36,7 @@
  - Desktop mode is most important but the app should be usable on tablet and phone devices as well
  - Light / Dark mode option requested by employees
  - Expects quick support if anything goes wrong with the app
+
+### Key Differences between next.js app and a vite-react.js app
+- paths in vite-react.js are defined in index.jsx. However, paths in next.js are defined under app by creating a () folder under it, which have other folders that have a page.tsx page in them. There's no index.jsx file in next.js
+- app title and favicon are defined in index.html in a vite-react.js project. However, in next.js...
