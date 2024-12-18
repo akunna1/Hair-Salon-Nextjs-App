@@ -10,7 +10,11 @@
 - src/app/(salon)/customers --> page.tsx
 - src/app/(salon)/home --> page.tsx
 - src/components --> Header.tsx
+- src/components --> theme-provider.tsx
+- src/components --> NavButton.tsx
+- src/components --> ModeToggle.tsx
 - src/components/ui --> button.tsx (created by shadcn)
+- src/components/ui --> dropdown-menu.tsx (created by shadcn)
 - src/lib --> utlis.js (created by shadcn)
 
 ### Features of App
