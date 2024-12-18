@@ -17,9 +17,9 @@
 - src/components/ui --> dropdown-menu.tsx (created by shadcn)
 - src/lib --> utlis.js (created by shadcn)
 
-### Features of App
+### Features/ Progress of App
 - Replace current note book system
-- Add a public facing page with basic contact info
+- Add a public facing page with basic contact info ✅
  - Add a passwordless employee login to the app
  - Show a real-time open tickets page after login
  - Provide easy navigation & search for customers & tickets
@@ -36,8 +36,7 @@
  - Employees can only edit their assigned tickets
  - Managers and Admins can view, edit, and delete all tickets
  - Desktop mode is most important but the app should be usable on tablet and phone devices as well
- - Light / Dark mode option requested by employees
- - Expects quick support if anything goes wrong with the app
+ - Light / Dark mode option requested by employees ✅
 
 ### Useful links
 - https://ui.shadcn.com/docs/dark-mode/next
