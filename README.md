@@ -44,4 +44,4 @@
   
 ### Key Differences between next.js app and a vite-react.js app
 - paths in vite-react.js are defined in index.jsx. However, paths in next.js are defined under app by creating a () folder under it, which have other folders that have a page.tsx page in them. There's no index.jsx file in next.js
-- app title and favicon are defined in index.html in a vite-react.js project. However, in next.js...
+- app title and favicon are defined in index.html in a vite-react.js project. However, in next.js, the app titles are different in page.tsx of the router folders. 
