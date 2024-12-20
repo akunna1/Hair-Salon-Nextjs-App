@@ -22,7 +22,7 @@
  - Show a real-time open tickets page after login
  - Provide easy navigation & search for customers & tickets
  - Provide a logout option
- - Require users to login at least once per week
+ - Require users to login at least once per week (did that by changng SSO session inactivity timeout on Kinde to 604800 second)✅
  - Provide a way to remove employee access asap if needed
  - Customers have an ID, full address, phone, email & notes
  - Tickets have an ID, title, notes, created & updated dates
