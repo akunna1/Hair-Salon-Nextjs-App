@@ -6,9 +6,8 @@
 - Public/images
 - src/app --> global.css, favicon.ico, layout.tsx (root layout), page.tsx (first page?)
 - src/app/(salon) --> layout.tsx, template.tsx
-- src/app/(salon)/tickets --> page.tsx
-- src/app/(salon)/customers --> page.tsx
-- src/app/(salon)/home --> page.tsx
+- src/app/(salon)/booking --> page.tsx
+- src/app/(salon)/users --> page.tsx
 - src/app/api/auth/[KindeAuth] --> route.tsx
 - src/app/login --> page.tsx
 - src/components --> Header.tsx, theme-provider.tsx, NavButton.tsx, ModeToggle.tsx
