@@ -4,13 +4,12 @@
 
 ### Project Layout (directories)
 - Public/images
-- src/app --> global.css, favicon.ico, layout.tsx (root layout), page.tsx (first page?)
+- src/app --> global.css, favicon.ico, layout.tsx (root layout, favicon defined here, themeProvider and footer are called here), page.tsx (first page?)
 - src/app/(salon) --> layout.tsx, template.tsx
 - src/app/(salon)/booking --> page.tsx
 - src/app/(salon)/users --> page.tsx
 - src/app/api/auth/[KindeAuth] --> route.tsx
-- src/app/login --> page.tsx
-- src/components --> Header.tsx, theme-provider.tsx, NavButton.tsx, ModeToggle.tsx
+- src/components --> Header.tsx (logo and icons are called here), theme-provider.tsx, NavButton.tsx, ModeToggle.tsx
 - src/components/ui --> button.tsx (created by shadcn), dropdown-menu.tsx (created by shadcn)
 - src/lib --> utlis.js (created by shadcn)
 
