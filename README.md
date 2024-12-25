@@ -18,6 +18,7 @@
 - src --> middleware.ts (handles authentication)
 - src/db --> index.ts, schema.ts, migrate.ts
 - salon-app (main folder) --> drizzle.config.ts, .env.local, package.json
+- salon-app/ data  --> customers.sql (contains sql statement to insert some data), tickets.sql
 
 ### Features/ Progress of App
 - Replace current note book system 
