@@ -15,7 +15,7 @@
 - src/components --> Header.tsx (logo and icons are called here), Header2.tsx, Footer.tsx, theme-provider.tsx, NavButton.tsx, ModeToggle.tsx
 - src/components/ui --> button.tsx (created by shadcn), dropdown-menu.tsx (created by shadcn)
 - src/lib --> utlis.js (created by shadcn)
-- src --> middleware.ts
+- src --> middleware.ts (handles authentication)
 - src/db --> index.ts, schema.ts, migrate.ts
 - salon-app (main folder) --> drizzle.config.ts, .env.local, package.json
 
