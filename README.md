@@ -62,3 +62,7 @@
 ### Manually Added to package.json under 'scripts'
 - "db:generate": "drizzle-kit generate --config drizzle.config.ts",
 - "db:migrate": "tsx ./src/db/migrate.ts" (needs connection string from neon)
+
+### Other Used SQL Commands
+-- UPDATE Tickets SET request = 'new-ticket@gmail.com' 
+- TRUNCATE tickets, customers RESTART IDENTITY CASCADE;
