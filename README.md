@@ -59,4 +59,4 @@
 
 ### Manually Added to db
 - "db:generate": "drizzle-kit generate",
-- "db:migrate": "tsx ./src/db/migrate.ts"
+- "db:migrate": "tsx ./src/db/migrate.ts" (needs connection string from neon)
