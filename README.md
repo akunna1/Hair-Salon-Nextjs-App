@@ -15,6 +15,7 @@
 - src/components --> Header.tsx (logo and icons are called here), theme-provider.tsx, NavButton.tsx, ModeToggle.tsx
 - src/components/ui --> button.tsx (created by shadcn), dropdown-menu.tsx (created by shadcn)
 - src/lib --> utlis.js (created by shadcn)
+- - src/db --> index.ts, schema.ts, migrate.ts
 
 ### Features/ Progress of App
 - Replace current note book system 
