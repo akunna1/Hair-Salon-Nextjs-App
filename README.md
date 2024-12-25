@@ -10,13 +10,14 @@
 - src/app/(salon) --> layout.tsx, template.tsx
 - src/app/(salon)/booking --> page.tsx
 - src/app/(salon)/users --> page.tsx
-- - src/app/(salon)/tickets --> page.tsx (protected route)
+- src/app/(salon)/tickets --> page.tsx (protected route)
 - src/app/api/auth/[KindeAuth] --> route.tsx
 - src/components --> Header.tsx (logo and icons are called here), theme-provider.tsx, NavButton.tsx, ModeToggle.tsx
 - src/components/ui --> button.tsx (created by shadcn), dropdown-menu.tsx (created by shadcn)
 - src/lib --> utlis.js (created by shadcn)
+- src --> middleware.ts
 - src/db --> index.ts, schema.ts, migrate.ts
-- src--> drizzle.config.ts
+- salon-app (main folder) --> drizzle.config.ts, .env.local, package.json
 
 ### Features/ Progress of App
 - Replace current note book system 
