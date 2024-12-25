@@ -9,6 +9,7 @@
 - src/app --> global.css, favicon.ico, layout.tsx (root layout, favicon defined here, themeProvider and footer are called here), page.tsx (first page?)
 - src/app/(salon) --> layout.tsx, template.tsx
 - src/app/(salon)/booking --> page.tsx
+- - src/app/(salon)/booking/form --> page.tsx
 - src/app/(salon)/users --> page.tsx
 - src/app/(salon)/tickets --> page.tsx (protected route)
 - src/app/api/auth/[KindeAuth] --> route.tsx
