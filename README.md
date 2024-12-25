@@ -68,3 +68,6 @@
 ### Other Used SQL Commands
 -- UPDATE Tickets SET request = 'new-ticket@gmail.com' 
 - TRUNCATE tickets, customers RESTART IDENTITY CASCADE;
+
+# Testing...
+- http://localhost:3000/booking/form?customerId=2
