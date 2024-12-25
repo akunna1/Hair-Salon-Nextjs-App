@@ -40,6 +40,11 @@
 - https://ui.shadcn.com/docs/dark-mode/next
 - https://lucide.dev/icons/
 - https://console.neon.tech/app/projects
+- https://neon.tech/docs/get-started-with-neon/connect-neon
+
+### Useful commands
+- npm i drizzle-orm @neondatabase/serverless
+- npm i -D drizzle-kit tsx dotenv
   
 ### Key Differences between next.js app and a vite-react.js app
 - paths in vite-react.js are defined in index.jsx. However, paths in next.js are defined under app by creating a () folder under it, which have other folders that have a page.tsx page in them. There's no index.jsx file in next.js
