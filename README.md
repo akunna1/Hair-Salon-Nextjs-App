@@ -24,25 +24,29 @@
 - salon-app/ data  --> customers.sql (contains sql statement to insert some data), tickets.sql
 
 ### Features/ Progress of App
-- Replace current note book system 
-- Add a public facing page with basic contact info ✅
- - Add a passwordless employee login to the app ✅
- - Show a real-time open tickets page after login
- - Provide easy navigation & search for customers & tickets
- - Provide a logout option ✅
- - Require users to login at least once per week (did that by changng SSO session inactivity timeout on Kinde to 604800 second)✅
- - Provide a way to remove employee access asap if needed (Users can be deleted/ suspended in Kinde) ✅
- - Customers have an ID, full address, phone, email & notes ✅
- - Tickets have an ID, title, notes, created & updated dates ✅
- - Tickets are either OPEN or COMPLETED ✅
- - Tickets are assigned to specific employees ✅
- - Users can have Employee, Manager, or Admin permissions 
- - All users can create and view tickets
- - All users can create, edit and view customers
- - Employees can only edit their assigned tickets
- - Managers and Admins can view, edit, and delete all tickets
- - Desktop mode is most important but the app should be usable on tablet and phone devices as well ✅
- - Light / Dark mode option requested by employees ✅
+Completion rate = 9/21 = 42.9%
+  ____________________________________________________________________________________________________________________________________________________________________________
+1.  Replace current note book system 
+2. Add a public facing page with basic contact info ✅
+3. Add a passwordless employee login to the app ✅
+4. Show a real-time open tickets page after login
+5. Provide easy navigation & search for customers & tickets
+6. Provide a logout option ✅
+7. Require users to login at least once per week (did that by changng SSO session inactivity timeout on Kinde to 604800 second)✅
+8. Provide a way to remove employee access asap if needed (Users can be deleted/ suspended in Kinde) ✅
+9. Customers have an ID, full address, phone, email & notes ✅
+10. Tickets have an ID, title, notes, created & updated dates ✅
+11. Tickets are either OPEN or COMPLETED ✅
+12. Tickets are assigned to specific employees ✅
+13. Users can have Employee, Manager, or Admin permissions 
+14. All users can create and view tickets
+15. All users can create, edit and view customers
+16. Employees can only edit their assigned tickets
+17. Managers and Admins can view, edit, and delete all tickets
+18. Desktop mode is most important but the app should be usable on tablet and phone devices as well (make app completely mobile responsive)
+19. Light / Dark mode option requested by employees (make it work on all pages)
+20. 'Lock' necessary pages
+21. Put headers on all pages except the homepage
 
 ### Useful links
 - https://ui.shadcn.com/docs/dark-mode/next
