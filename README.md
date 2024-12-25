@@ -15,11 +15,12 @@
 - src/app/(salon)/tickets/form --> page.tsx
 - src/app/api/auth/[KindeAuth] --> route.tsx
 - src/components --> Header.tsx (logo and icons are called here), Header2.tsx, Footer.tsx, theme-provider.tsx, NavButton.tsx, ModeToggle.tsx
-- src/components/ui --> button.tsx (created by shadcn), dropdown-menu.tsx (created by shadcn)
+- src/components/ui --> button.tsx (created by shadcn), dropdown-menu.tsx (created by shadcn), form.tsx, label.tsx
 - src/lib/queries --> getCustomer.ts, getTicket.ts
 - src/lib --> utlis.ts (created by shadcn)
 - src --> middleware.ts (handles authentication)
 - src/db --> index.ts, schema.ts, migrate.ts
+- src/zod-schemas --> customers.ts, tickets.ts
 - salon-app (main folder) --> drizzle.config.ts, .env.local, package.json
 - salon-app/ data  --> customers.sql (contains sql statement to insert some data), tickets.sql
 
