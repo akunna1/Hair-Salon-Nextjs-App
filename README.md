@@ -31,8 +31,8 @@
  - Provide a way to remove employee access asap if needed (Users can be deleted/ suspended in Kinde) ✅
  - Customers have an ID, full address, phone, email & notes ✅
  - Tickets have an ID, title, notes, created & updated dates ✅
- - Tickets are either OPEN or COMPLETED
- - Tickets are assigned to specific employees
+ - Tickets are either OPEN or COMPLETED ✅
+ - Tickets are assigned to specific employees ✅
  - Users can have Employee, Manager, or Admin permissions 
  - All users can create and view tickets
  - All users can create, edit and view customers
