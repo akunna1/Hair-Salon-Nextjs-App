@@ -28,9 +28,9 @@
  - Provide easy navigation & search for customers & tickets
  - Provide a logout option ✅
  - Require users to login at least once per week (did that by changng SSO session inactivity timeout on Kinde to 604800 second)✅
- - Provide a way to remove employee access asap if needed ✅ (Users can be deleted/ suspended in Kinde)
- - Customers have an ID, full address, phone, email & notes
- - Tickets have an ID, title, notes, created & updated dates
+ - Provide a way to remove employee access asap if needed (Users can be deleted/ suspended in Kinde) ✅
+ - Customers have an ID, full address, phone, email & notes ✅
+ - Tickets have an ID, title, notes, created & updated dates ✅
  - Tickets are either OPEN or COMPLETED
  - Tickets are assigned to specific employees
  - Users can have Employee, Manager, or Admin permissions 
