@@ -12,7 +12,7 @@
 - src/app/(salon)/booking/form --> page.tsx
 - src/app/(salon)/users --> page.tsx
 - src/app/(salon)/tickets --> page.tsx (protected route)
-- src/app/(salon)/tickets/form --> page.tsx
+- src/app/(salon)/tickets/form --> page.tsx, customerForm.tsx
 - src/app/api/auth/[KindeAuth] --> route.tsx
 - src/components --> Header.tsx (logo and icons are called here), Header2.tsx, Footer.tsx, theme-provider.tsx, NavButton.tsx, ModeToggle.tsx
 - src/components/ui --> button.tsx (created by shadcn), dropdown-menu.tsx (created by shadcn), form.tsx, label.tsx
