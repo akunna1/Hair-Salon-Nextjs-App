@@ -3,7 +3,7 @@
 - ShadCN: a UI component library for building accessible, customizable, and reusable components in React applications e.g buttons, dropdown menus etc, designed to improve development efficiency and user experience. Almost like BootStrap
 - Middleware: a function or a set of functions that intercept and process requests and responses in an application before they reach their intended destination or are sent back to the client. It acts as a "middle layer" between the incoming HTTP request and the final application logic.
 - Neon HTTP adapter: used to enable seamless integration between Drizzle ORM and Neon’s serverless database, providing a lightweight and efficient way to interact with the database over HTTP.
-
+  
 ### Project Layout (directories)
 - Public/images
 - src/app --> global.css, favicon.ico, layout.tsx (root layout, favicon defined here, themeProvider and footer are called here), page.tsx (first page?)
