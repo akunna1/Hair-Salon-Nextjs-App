@@ -27,7 +27,7 @@
 - salon-app/ data  --> customers.sql (contains sql statement to insert some data), tickets.sql
 
 ### Features/ Progress of App
-Completion rate = 9/21 = 42.9%
+Completion rate = 11/21 = 52.4%
   ____________________________________________________________________________________________________________________________________________________________________________
 1.  Replace current note book system 
 2. Add a public facing page with basic contact info ✅
@@ -42,8 +42,8 @@ Completion rate = 9/21 = 42.9%
 11. Tickets are either OPEN or COMPLETED ✅
 12. Tickets are assigned to specific employees ✅
 13. Users can have Employee, Manager, or Admin permissions 
-14. All users can create and view tickets
-15. All users can create, edit and view customers
+14. All users can create and view tickets ✅
+15. All users can create, edit and view customers ✅
 16. Employees can only edit their assigned tickets
 17. Managers and Admins can view, edit, and delete all tickets
 18. Desktop mode is most important but the app should be usable on tablet and phone devices as well (make app completely mobile responsive)
