@@ -16,7 +16,8 @@
 - src/app/api/auth/[KindeAuth] --> route.tsx
 - src/components --> Header.tsx (logo and icons are called here), Header2.tsx, Footer.tsx, theme-provider.tsx, NavButton.tsx, ModeToggle.tsx
 - src/components/ui --> button.tsx (created by shadcn), dropdown-menu.tsx (created by shadcn), form.tsx, label.tsx, checkbox.tsx, textarea.tsx, etc
-- - src/components/inputs --> inputWithLabel.tsx 
+- src/components/inputs --> inputWithLabel.tsx
+- - src/constants --> statesArray.tsx 
 - src/lib/queries --> getCustomer.ts, getTicket.ts
 - src/lib --> utlis.ts (created by shadcn)
 - src --> middleware.ts (handles authentication)
