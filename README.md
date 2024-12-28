@@ -69,6 +69,13 @@ Completion rate = 11/21 = 52.4%
 - helps with passwordless auth
 - create account --> type in business details (has kinde domain) --> use existing code base (next.js project) --> do the npm stuff --> update .env.local (found in same place as package.json, modify redirect Urls) --> create API endpoint to handle kinde Auth endpoints in the next.js app (src/app/api/auth/[KindeAuth]/route.ts) --> add login button to the users page --> rename application (under details) --> make sure to change the logout redirect url to match that of the .env.local file (under details) --> modify authentication experience (under details) --> email + code enabled (under authrntication) --> modify SSO session inactivity timeout (under tokens) --> go back to home --> go to users and add users e.g me (one can delete/suspend users here) --> go back to home and to settings --> set time zone and add a valid email for the business (i.e my email) --> go to permissions (still under settings) --> add admin and key (i.e admin), do the same for manager and user (they will have authorization to use certain features of the application) --> go to policies (still under settings) --> deactivate 'allow self-sign up' --> go to multi-factor authentication and make it not required --> add a logout link to the header
 
+### Adding Permissions in Kinde
+- Home --> user --- three dots ---> view profile --> permissions --> Add permissions --> make me admin and manager --> save -->
+- Add one more user: homepage --> User --> add user
+- add application called ManagementAPI --> choose M2M --> update .env.local file with credentials
+- Select APIs on the menu on the left --> authorize application
+- set up scope --> turn on read:users --> 
+
 ### Manually Added to package.json under 'scripts'
 - "db:generate": "drizzle-kit generate --config drizzle.config.ts",
 - "db:migrate": "tsx ./src/db/migrate.ts" (needs connection string from neon)
