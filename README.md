@@ -77,6 +77,9 @@ Completion rate = 11/21 = 52.4%
 -- UPDATE Tickets SET request = 'new-ticket@gmail.com' 
 - TRUNCATE tickets, customers RESTART IDENTITY CASCADE;
 
-# Testing...
+### Testing...
 - http://localhost:3000/booking/form?customerId=2
 - http://localhost:3000/tickets/form?ticketId=24
+
+### Installations
+- npm i @kinde-oss/kinde-auth-nextjs @kinde/management-api-js
