@@ -81,8 +81,9 @@ Completion rate = 11/21 = 52.4%
 - "db:migrate": "tsx ./src/db/migrate.ts" (needs connection string from neon)
 
 ### Other Used SQL Commands
--- UPDATE Tickets SET request = 'new-ticket@gmail.com' 
+- UPDATE Tickets SET request = 'new-ticket@gmail.com' 
 - TRUNCATE tickets, customers RESTART IDENTITY CASCADE;
+- UPDATE Tickets SET request = 'akunnaamara1@gmail.com' where id = 4;
 
 ### Testing...
 - http://localhost:3000/booking/form?customerId=2
